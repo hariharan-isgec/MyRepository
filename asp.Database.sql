@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [asp]    Script Date: 10/03/2018 09:49:59 ******/
+/****** Object:  Database [asp]    Script Date: 10/03/2018 09:54:14 ******/
 CREATE DATABASE [asp] ON  PRIMARY 
 ( NAME = N'asp', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\asp.mdf' , SIZE = 2048KB , MAXSIZE = UNLIMITED, FILEGROWTH = 1024KB )
  LOG ON 

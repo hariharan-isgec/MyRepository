@@ -1,6 +1,6 @@
 USE [asp]
 GO
-/****** Object:  Table [dbo].[DashboardData]    Script Date: 10/03/2018 09:50:01 ******/
+/****** Object:  Table [dbo].[DashboardData]    Script Date: 10/03/2018 09:54:14 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -53,7 +53,8 @@ CREATE TABLE [dbo].[DashboardData](
 	[IsGREListURLl] [bit] NULL,
 	[vGREListURLl] [varchar](max) NULL,
 	[IsGREListURLr] [bit] NULL,
-	[vGREListURLr] [varchar](max) NULL
+	[vGREListURLr] [varchar](max) NULL,
+	[another] [nchar](10) NULL
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 SET ANSI_PADDING OFF
